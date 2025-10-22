@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Coches</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css?v=3.2">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-content="inicio">Inicio</a></li>
+                <li><a href="#" data-content="marcas">Marcas de Coches</a></li>
+                <li><a href="#" data-content="contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content">
+        <section id="inicio">
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Encuentra el coche de tus sueños</h1>
+                    <p>Calidad y confianza en cada vehículo</p>
+                </div>
+            </div>
+        </section>
+        <section id="marcas" class="hidden">
+            <h2>Nuestras Marcas</h2>
+            <div class="car-container">
+                <div class="car-card">
+                    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="BMW X1">
+                    <h3>BMW X1</h3>
+                    <p>El BMW X1 es un SUV compacto de lujo con un diseño deportivo y elegante. Ofrece un interior espacioso y versátil, con materiales de alta calidad y tecnología de última generación. Su conducción es ágil y dinámica, ideal para la ciudad y la carretera.</p>
+                    <p class="price">Precio: 38.700 €</p>
+                </div>
+                <div class="car-card">
+                    <img src="https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Mercedes-Benz C-Class">
+                    <h3>Mercedes-Benz Clase C</h3>
+                    <p>El Mercedes-Benz Clase C es una línea de automóviles ejecutivos compactos producida por Daimler AG. El Clase C se construye en las fábricas de Mercedes-Benz en Sindelfingen y Bremen, Alemania, así como en numerosas fábricas satélite en otros países.</p>
+                    <p class="price">Precio: 51.568 €</p>
+                </div>
+                <div class="car-card">
+                    <img src="https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Audi A4">
+                    <h3>Audi A4</h3>
+                    <p>El Audi A4 es una línea de automóviles ejecutivos compactos producida desde 1994 por el fabricante de automóviles alemán Audi, una subsidiaria del Grupo Volkswagen.</p>
+                    <p class="price">Precio: 42.000 €</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="hidden">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros para más información.</p>
+            <form>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Venta de Coches. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
